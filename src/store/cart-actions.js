@@ -5,7 +5,7 @@ export const fetchData = () => {
   return async (dispatch) => {
     const fetchHandler = async () => {//mark the function as the async
          //fetch request
-       await fetch(//it is say like hey fetch request go head and do your thing I will 
+      const res= await fetch(//it is say like hey fetch request go head and do your thing I will 
       //wait for you to return that back to me
 
 
